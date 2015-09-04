@@ -1,8 +1,6 @@
 package next.hello;
 
-import java.io.Serializable;
-
-public class HelloMessage implements Serializable {
+public class HelloMessage {
     private final String message;
 
     public HelloMessage(String message) {
